@@ -10,19 +10,19 @@ Endpoint: /book</br>
 Method: GET</br>
 Description: This endpoint retrieves a list of all books available in the library. The server responds with details of each book, including information such as title, author, and other relevant details.
 
-2. Get Single Book:
-Endpoint: /book/:id
-Method: GET
+2. Get Single Book:</br>
+Endpoint: /book/:id</br>
+Method: GET</br>
 Description: This endpoint retrieves details for a specific book identified by its unique :id parameter. The server responds with information about the requested book.
 
-3.Create Book:
-Endpoint: /book/createbook
-Method: POST
+3.Create Book:</br>
+Endpoint: /book/createbook</br>
+Method: POST</br>
 Description: Use this endpoint to add a new book to the library. The client sends a POST request with a JSON payload containing the details of the book to be created, such as title, author, publication year, etc. The server then adds the new book to the books collection.
 
-4. Update Book:
-Endpoint: /book/updatebook/:id
-Method: PUT
+4. Update Book:</br>
+Endpoint: /book/updatebook/:id</br>
+Method: PUT</br>
 Description: This endpoint allows the client to update the details of a specific book identified by its :id parameter. The client sends a PUT request with a JSON payload containing the updated information for the book. The server processes the request, modifies the existing book record, and responds with the updated book details.
 
 5. Delete Book:
