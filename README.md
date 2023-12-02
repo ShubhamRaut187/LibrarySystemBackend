@@ -5,9 +5,9 @@ Backend is deployed on Render.
 Server Deployed Link:https://librarysystem-hupf.onrender.com/
 
 # End Points 🔚
-1. Get All Books:
-Endpoint: /book
-Method: GET
+1. Get All Books:</br>
+Endpoint: /book</br>
+Method: GET</br>
 Description: This endpoint retrieves a list of all books available in the library. The server responds with details of each book, including information such as title, author, and other relevant details.
 
 2. Get Single Book:
