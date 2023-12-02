@@ -25,7 +25,7 @@ Endpoint: /book/updatebook/:id</br>
 Method: PUT</br>
 Description: This endpoint allows the client to update the details of a specific book identified by its :id parameter. The client sends a PUT request with a JSON payload containing the updated information for the book. The server processes the request, modifies the existing book record, and responds with the updated book details.
 
-5. Delete Book:
-Endpoint: /book/deletebook/:id
-Method: DELETE
+5. Delete Book:</br>
+Endpoint: /book/deletebook/:id</br>
+Method: DELETE</br>
 Description: Use this endpoint to remove a book from the library's inventory. The client sends a DELETE request with the unique :id parameter identifying the book to be deleted. The server processes the request, removes the specified book from the database, and responds with a confirmation message.
